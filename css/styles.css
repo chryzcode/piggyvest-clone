@@ -1,0 +1,152 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Eina, sans-serif;
+}
+
+body{
+  background-color: #062863;
+  background-image:
+  url('../images/piggyvest_circle_icon.png'),
+  url('../images/piggyvest_j-green_icon.png'),
+  url('../images/piggyvest_j-pink-icon.png'),
+  url('../images/piggyvest_angle_icon.png');
+  background-position:
+    left -1% top -6.9%, right -9% top -1%,
+    left -5% bottom -5%, right -5% bottom -5%;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 15%, 15%, 15%, 15%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+
+.main-logo{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 48px;
+}
+
+.form-wrapper{
+  margin-top: 45px;
+  background: white;
+  max-width: 23rem;
+  padding: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+}
+
+.all-sentences{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.first-sentence{
+  font-size: 24px;
+  color: #083e9e;
+  font-family: U8,sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.second-sentence{
+  font-size: 15px;
+  color: #4a5568;
+  font-family: U8,sans-serif;
+  margin-top: 5px;
+  margin-bottom: 27px;
+}
+
+label{
+  color: #4a5568;
+  font-size: 11.5px;
+  margin-bottom: .25rem;
+  line-height: 2;
+  font-weight: 700;
+}
+
+input, select{
+  color: #1a202c;
+  outline: 0;
+  border-radius: .25rem;
+  background-color: #edf2f7;
+  font-size: 15px;
+  border: 0;
+  width: 348px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding-left: 14px;
+}
+
+.footer-words{
+  margin-top: 35px;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+  font-size: 13px;
+  display: block;
+  text-decoration: none;
+}
+
+.footer-words:hover{
+  color: #b3b3b3;
+}
+
+.btn{
+  background: #083e9e;
+  width: 340px;
+  height: 45px;
+  color: white;
+  outline: 0;
+  border: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  font-weight: 750;
+}
+
+@media all and (max-width: 768px){
+  .first-sentence{
+    font-size: 20px;
+    font-weight: 550;
+  }
+
+  .second-sentence{
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 495px){
+  .form-wrapper{
+    width: 75%;
+  }
+
+  input,  .btn{
+    width: 100%;
+  }
+
+  select{
+    width: 104%;
+  }
+}
+
+@media all and (max-width: 400px){
+  body{
+    width: 390px;
+    background-image: url('../images/piggyvest_j-green_icon.png');
+    background-position: right -3% top -1%;
+    background-repeat: no-repeat;
+    background-size: 10%;
+  }
+}
