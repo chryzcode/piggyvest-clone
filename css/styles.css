@@ -141,6 +141,16 @@ input, select{
   }
 }
 
+.dev {
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.dev > a {
+  color: #58a6ff;
+}
+
 @media all and (max-width: 400px){
   body{
     width: 390px;
