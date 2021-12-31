@@ -114,6 +114,7 @@ input, select{
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
   font-weight: 750;
+  cursor: pointer;
 }
 
 @media all and (max-width: 768px){
@@ -150,6 +151,21 @@ input, select{
 .dev > a {
   color: #58a6ff;
 }
+
+#github {
+  font-size: 40px;
+  color: #ffffff;
+  display: block;
+  display: flex;
+  justify-content: right;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+body > a {
+  text-decoration: none;
+}
+
 
 @media all and (max-width: 400px){
   body{
